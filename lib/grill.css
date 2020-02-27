@@ -21,7 +21,8 @@
   border: 1px solid black;
   text-align: center;
   background-color: orange;
-  height: 130px;
+  height: 100px;
+ padding-top: 40px;
 }
 
 .col-1 {
@@ -70,4 +71,12 @@
 
 .col-12 {
   width: calc((100% / 12)*12);
+}
+
+.nested{
+  height: 96px;
+  background-color: red;
+}
+.nest{
+  padding: 1px;
 }
